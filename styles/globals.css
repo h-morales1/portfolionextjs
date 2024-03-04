@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-4xl font-semibold text-gray-700 my-5;
+  }
+  h2 {
+    @apply text-2xl font-semibold text-gray-700 my-5;
+  }
+
+  img {
+    @apply rounded-lg p-5 size-1/2;
+  }
+
+  a {
+    @apply hover:text-blue-200;
+  }
+}
+
+li {
+  display: list-item;
+  list-style-type: circle;
+  margin-left: 2rem;
+}
+pre {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+/*
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +57,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
