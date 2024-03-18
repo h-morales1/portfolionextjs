@@ -8,17 +8,14 @@ export default function Document() {
           class="flex items-center justify-between max-w-5xl
     mx-auto px-4 h-24"
         >
-          <a
-            class="p-2 rounded-lg text-gray-700 hover:bg-blue-100"
-            href="/blankTool"
-          >
+          <a class="p-2 rounded-lg text-gray-700 hover:bg-blue-100" href="/">
             Home
           </a>
 
           <div class="flex space-x-1 items-center">
             <a
               class="p-2 rounded-lg text-gray-700 hover:bg-blue-100"
-              href="/"
+              href="https://github.com/h-morales1"
               target="_blank"
             >
               Github
