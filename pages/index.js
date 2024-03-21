@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import { getAllTileData } from "@/lib/posts";
 import Link from "next/link";
+import ProjectTile from "@/components/ProjectTile";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,9 @@ export default function Home({ allTilesData }) {
       </div>
       <div>
         <h1 className="ml-24">Projects</h1>
+      </div>
+      <div className="h-fit ml-24">
+        <ProjectTile title={"Android Java Inventory App"}></ProjectTile>
       </div>
       <div>
         <ul>
