@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { Link } from "next";
 
 export default function Document() {
   return (
@@ -8,9 +9,12 @@ export default function Document() {
           class="flex items-center justify-between max-w-5xl
     mx-auto px-4 h-24"
         >
-          <a class="p-2 rounded-lg text-gray-700 hover:bg-blue-100" href="/">
+          <Link
+            href="/"
+            className="p-2 rounded-lg text-gray-700 hover:bg-blue-100"
+          >
             Home
-          </a>
+          </Link>
 
           <div class="flex space-x-1 items-center">
             <a
