@@ -18,7 +18,7 @@ export async function getStaticProps() {
 export default function Home({ allTilesData }) {
   return (
     <main className={`${inter.className}`}>
-      <div className="flex items-center justify-center h-screen ">
+      <div className="flex items-center justify-center h-fit my-32 ">
         <Image className="" src="/main icon.svg" width={200} height={200} />
         <h1 className="ml-24">Herbert Morales</h1>
       </div>
