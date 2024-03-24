@@ -17,9 +17,6 @@ ls -a
 2. another test
 3. something
 
-## Creating a blank membership
-
-- Create a blank Membership/Order in console(This is not possible in NewAdmin yet).
-- Then in NewAdmin, add all those items in the messy output(using the NewAdmin line item form).
+## A TEST OR SOMETHING
 
 ## Messy output example
