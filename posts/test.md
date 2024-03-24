@@ -1,5 +1,6 @@
 ---
 title: "test or something"
+summary: "this is just a test."
 ---
 
 # This is just a **test**
@@ -21,4 +22,4 @@ ls -a
 - Create a blank Membership/Order in console(This is not possible in NewAdmin yet).
 - Then in NewAdmin, add all those items in the messy output(using the NewAdmin line item form).
 
-## Messy output example:
+## Messy output example

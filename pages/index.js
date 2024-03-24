@@ -25,20 +25,15 @@ export default function Home({ allTilesData }) {
       <div>
         <h1 className="ml-24">Projects</h1>
       </div>
-      <div className="h-fit ml-24">
-        <ProjectTile title={"Android Java Inventory App"}></ProjectTile>
-      </div>
-      <div>
-        <ul>
-          {allTilesData.map(({ id, title }) => (
-            <li key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
-              {id}
-              <br />
-            </li>
-          ))}
-        </ul>
+      <div className="flex flex-row gap-10 h-fit ml-24">
+        {allTilesData.map(({ id, title, summary }) => (
+          <ProjectTile
+            key={id}
+            id={id}
+            title={title}
+            summary={summary}
+          ></ProjectTile>
+        ))}
       </div>
     </main>
   );
