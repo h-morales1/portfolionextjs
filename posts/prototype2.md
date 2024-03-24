@@ -1,5 +1,6 @@
 ---
 title: "Android Java Inventory App"
+summary: "Android app designed to catalogue an inventory of art pieces."
 ---
 
 # Art Inventory App [(**_Repo_**)](https://github.com/h-morales1/invPrototypes)
