@@ -25,8 +25,16 @@ li {
   margin-left: 2rem;
 }
 pre {
+  overflow-x: auto;
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+pre [data-line] {
+  padding: 0 1rem;
+}
+p {
+  margin-left: 1rem;
 }
 /*
 :root {
