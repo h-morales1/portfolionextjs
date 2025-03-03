@@ -20,6 +20,7 @@ export default function Home({ allTilesData }) {
     <main className={`${inter.className}`}>
       <div className="flex flex-col items-center justify-center md:flex-row h-fit my-32 ">
         <Image
+          alt=""
           className="h-max w-max"
           src="/main icon.svg"
           width={200}
@@ -31,7 +32,7 @@ export default function Home({ allTilesData }) {
         <div>
           <h1 className="md:ml-24">Projects</h1>
         </div>
-        <div className="grid md:grid-cols-3 gap-10 h-fit md:ml-24">
+        <div className="grid md:grid-cols-3 gap-10 h-fit md:ml-24 mb-8">
           {allTilesData.map(({ id, title, summary }) => (
             <ProjectTile
               key={id}
