@@ -10,14 +10,14 @@ export default function Document() {
         >
           <Link
             href="/"
-            className="p-2 rounded-lg text-gray-700 hover:bg-blue-100"
+            className="p-2 rounded-lg text-gray-700 hover:bg-cyan-700"
           >
             Home
           </Link>
 
           <div className="flex space-x-1 items-center">
             <a
-              className="p-2 rounded-lg text-gray-700 hover:bg-blue-100"
+              className="p-2 rounded-lg text-gray-700 hover:bg-cyan-700"
               href="https://github.com/h-morales1"
               target="_blank"
             >
